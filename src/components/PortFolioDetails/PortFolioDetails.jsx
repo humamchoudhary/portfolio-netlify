@@ -14,7 +14,7 @@ const PortFolioDetails = () => {
                 <BiUpArrowAlt className='upIcon' />
 
             </HashLink>
-            <HashLink to="/Portfolio/#portfolio">
+            <HashLink to="/#portfolio">
                 <IoArrowBack className='back' />
             </HashLink>
             <h5 className="text-light headline">All Of My Work</h5>

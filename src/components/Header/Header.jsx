@@ -20,7 +20,7 @@ const Header = () => {
         <div className="me glass-effect">
           <img src={ME} alt="" />
         </div>
-        <HashLink to="/Portfolio/#contact" className='scroll__down'>Scroll Down</HashLink>
+        <HashLink to="/#contact" className='scroll__down'>Scroll Down</HashLink>
 
       </div>  
     </header>

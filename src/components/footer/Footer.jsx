@@ -4,17 +4,18 @@ import { BsFacebook } from "react-icons/bs"
 import { AiFillInstagram } from "react-icons/ai"
 import { AiFillLinkedin } from "react-icons/ai"
 import { AiFillTwitterCircle } from "react-icons/ai"
+import { HashLink } from 'react-router-hash-link'
 const Footer = () => {
   return (
     <footer>
       <a href="#" className='footer__logo'>Muhammad Humam</a>
       <ul className="permalinks">
-        <li><a href="/Portfolio/#">Home</a></li>
-        <li><a href="/Portfolio/#about">About</a></li>
-        <li><a href="/Portfolio/#portfolio">Portfolio</a></li>
-        <li><a href="/Portfolio/#experience">Experience</a></li>
-        <li><a href="/Portfolio/#services">Services</a></li>
-        <li><a href="/Portfolio/#contact">Contact</a></li>
+        <li><HashLink to="/#">Home</HashLink></li>
+        <li><HashLink to="/#about">About</HashLink></li>
+        <li><HashLink to="/#portfolio">Portfolio</HashLink></li>
+        <li><HashLink to="/#experience">Experience</HashLink></li>
+        <li><HashLink to="/#services">Services</HashLink></li>
+        <li><HashLink to="/#contact">Contact</HashLink></li>
       </ul>
 
       <div className="footer__socials">

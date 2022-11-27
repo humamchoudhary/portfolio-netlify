@@ -29,7 +29,7 @@ const Portfolio = () => {
 
 
       </div>
-      <HashLink className='moreprojects btn btn-primary' to="/Portfolio/Portfolio/#">More Projects</HashLink>
+      <HashLink className='moreprojects btn btn-primary' to="/Portfolio/#">More Projects</HashLink>
 
     </section>
   )
