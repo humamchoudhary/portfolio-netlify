@@ -4,7 +4,6 @@ import "./projectdetails.css"
 import { AllProjects } from "../../projects.js"
 import {BiArrowBack} from "react-icons/bi"
 import {useNavigate} from 'react-router-dom'
-import { HashLink } from 'react-router-hash-link'
 
 const ProjectDetails = () => {
     const navigate = useNavigate();

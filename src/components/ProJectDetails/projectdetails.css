@@ -2,7 +2,10 @@
     background: var(--color-bg-dark);
     height: 100vh;
 }
+.project__item{
+    background: var(--color-text);
 
+}
 .project__header {
     display: flex;
 }
