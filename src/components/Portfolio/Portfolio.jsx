@@ -14,7 +14,7 @@ const Portfolio = () => {
           return (
 
             <article className='portfolio__item'>
-              <Link to={`/Projects/${project.id}`}>
+              <Link to={`/Projects/${project.id}/#`}>
 
                 <div className="portfolio__item__img">
                   <img src={project.img} alt="Al Kitab" />
