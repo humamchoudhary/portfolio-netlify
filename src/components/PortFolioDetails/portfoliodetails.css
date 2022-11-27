@@ -1,0 +1,116 @@
+h5.headline {
+    font-size: 1.4rem;
+}
+
+h2.headline {
+    font-size: 5rem;
+}
+
+.back {
+    font-size: 3rem;
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+    color: var(--color-text-light);
+    transition: var(--transition);
+
+}
+
+.back:hover {
+    color: var(--color-text);
+}
+
+.allportfolio__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+.allportfolio__item {
+    background: var(--color-bg2);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+}
+
+.allportfolio__item:hover {
+    border-color: var(--color-cta2);
+    background: transparent;
+}
+
+.allportfolio__item__img {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.allportfolio__item h3 {
+    margin: 1.2rem 0 1.2rem;
+    font-size: 1.7rem;
+}
+
+.allportfolio__item h5 {
+    margin: 0 0 1.2rem;
+    font-size: 1rem;
+}
+
+.allportfolio__item__cta {
+    display: flex;
+    gap: 1rem;
+}
+
+.upIcon {
+    color: var(--color-text-light);
+    transition: var(--transition);
+    position: fixed;
+    font-size: 5rem;
+    bottom: 2rem;
+    right: 2rem;
+    border: 2px solid var(--color-text-light);
+    border-radius: 20%;
+
+}
+
+.upIcon:hover {
+    border-color: var(--color-text);
+    color: var(--color-text);
+}
+
+/*  ##################  Media Queries (MEDIUM DEVICES)  ######################   */
+
+@media screen and (max-width:1024px) {
+    .allportfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .back{
+        font-size: 2rem;
+        left: 1rem;
+        top: 2rem;
+    }
+    .upIcon{
+        font-size:3rem;
+        color: var(--color-cta2);
+        border-color: var(--color-cta2);
+    }
+    h5.headline {
+        font-size: 0.9  rem;
+    }
+    
+    h2.headline {
+        font-size: 3rem;
+    }
+}
+
+
+
+/*  ##################  Media Queries (SMALL DEVICES)  ######################   */
+
+@media screen and (max-width:600px) {
+    .allportfolio__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+}

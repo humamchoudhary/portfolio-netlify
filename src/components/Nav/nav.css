@@ -1,0 +1,53 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(5px)
+}
+
+nav a {
+    background: transparent;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-text-light);
+}
+
+nav a:hover {
+    
+    background: rgba(0, 0, 0, 0.541);
+}
+
+
+nav a.active {
+    background: var(--color-cta);
+    color: var(--color-text);
+}
+
+/*  ##################  Media Queries (MEDIUM DEVICES)  ######################   */
+
+@media screen and (max-width:1024px) {
+    nav {
+        top: 95vh;
+        left: 50%;
+        height: max-content;
+        transform: translateY(-100%) translateX(-50%);
+        flex-direction: row;
+        bottom: 3rem;
+        margin-bottom: 2rem;
+    }
+    nav a{
+        font-size: 1rem;
+    }
+    
+}
