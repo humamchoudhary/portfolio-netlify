@@ -12,6 +12,7 @@ export const AllProjects = [
         demolink: "https://github.com/humamchoudhary",
         details: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente architecto distinctio voluptatum numquam odio blanditiis dolores saepe ullam, accusantium vel velit similique error adipisci doloribus aliquid, sit cupiditate vitae laborum fugiat eveniet possimus. Aut minima velit magni laboriosam, distinctio consectetur. Voluptatum commodi aspernatur sit temporibus molestiae qui nisi necessitatibus culpa?"
     },
+    
     {
         id: 2,
         name: "Swizzle",
@@ -23,7 +24,6 @@ export const AllProjects = [
         demolink: "https://humamchoudhary.github.io/swizzl/",
         details: " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente architecto distinctio voluptatum numquam odio blanditiis dolores saepe ullam, accusantium vel velit similique error adipisci doloribus aliquid, sit cupiditate vitae laborum fugiat eveniet possimus. Aut minima velit magni laboriosam, distinctio consectetur. Voluptatum commodi aspernatur sit temporibus molestiae qui nisi necessitatibus culpa?"
     },
-
 
 ]
 export const Projects = [
