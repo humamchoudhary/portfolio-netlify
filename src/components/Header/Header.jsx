@@ -10,19 +10,22 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Muhammad Humam</h1>
-        <h5 className="text-light">
-          Developer & Designer
-        </h5>
-        <CTA />
-        <HeadSocials/>
+        <div className="head__text">
+
+          <h5>Hello I'm</h5>
+          <h1>Muhammad Humam</h1>
+          <h5 className="text-light">
+            Developer & Designer
+          </h5>
+          <CTA />
+          <HeadSocials />
+        </div>
         <div className="me glass-effect">
           <img src={ME} alt="" />
         </div>
         <HashLink to="/#contact" className='scroll__down'>Scroll Down</HashLink>
 
-      </div>  
+      </div>
     </header>
   )
 }
