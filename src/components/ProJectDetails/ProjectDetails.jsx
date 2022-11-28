@@ -4,12 +4,19 @@ import "./projectdetails.css"
 import { AllProjects } from "../../projects.js"
 import {BiArrowBack} from "react-icons/bi"
 import {useNavigate} from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const ProjectDetails = () => {
     const navigate = useNavigate();
     const { id } = useParams();
 
     return (
+        <>
+        <Helmet>
+                <meta name="description" content="Portfolio details" />
+                <link rel="canonical" href="/Project" />
+            </Helmet>
+            
         <div id="#" className='container__project__items'>
             {AllProjects.map((project, key) => {
                 return (
@@ -80,6 +87,7 @@ const ProjectDetails = () => {
                 )
             })}
         </div>
+        </>
     )
 }
 
