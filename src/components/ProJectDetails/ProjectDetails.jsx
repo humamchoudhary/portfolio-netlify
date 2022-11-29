@@ -18,7 +18,7 @@ const ProjectDetails = () => {
             </Helmet>
             
         <div id="#" className='container__project__items'>
-            {AllProjects.map((project, key) => {
+            {AllProjects.map((project) => {
                 return (
                     project.id == id ?
                         <article className='project__item'>

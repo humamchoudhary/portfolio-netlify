@@ -1,5 +1,5 @@
 .container__project__items {
-    background: var(--color-bg-dark);
+    background: var(--color-bg2);
     height: 100vh;
 }
 .project__item{
@@ -57,8 +57,9 @@
 
 .project__details__header {
     margin: 5rem 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .project__details__header .project__details__header__item p {
@@ -87,4 +88,30 @@
     width: 9rem;
     height: 3px;
     background: var(--color-cta);
+}
+
+/*  ##################  Media Queries (MEDIUM DEVICES)  ######################   */
+
+@media screen and (max-width:1024px) {
+    .project__item__img img {
+        object-fit: cover;
+    }
+    .details__body .details {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .details__body .details .line {
+        width: 50vw;
+        height: 3px;
+        background: var(--color-cta);
+    }
+}
+
+/*  ##################  Media Queries (SMALL DEVICES)  ######################   */
+
+@media screen and (max-width:600px) {
+    .project__details__header {
+        display: flex;
+        flex-direction: column;
+    }
 }
