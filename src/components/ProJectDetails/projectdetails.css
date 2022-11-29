@@ -1,6 +1,7 @@
 .container__project__items {
     background: var(--color-bg2);
     height: 100vh;
+    margin-top: 0
 }
 .project__item{
     background: var(--color-text);
@@ -21,7 +22,9 @@
     filter: brightness(0.50);
     object-fit: fill;
 }
-
+.back{
+    z-index: 2;
+}
 .project__header__text {
     position: absolute;
     transition: var(--transition);

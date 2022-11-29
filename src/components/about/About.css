@@ -1,4 +1,4 @@
-#about{
+#about {
     padding-top: 2rem;
 }
 
@@ -72,6 +72,13 @@
     color: var(--color-text-light);
 }
 
+.cta-about {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 /*  ##################  Media Queries (MEDIUM DEVICES)  ######################   */
 
 @media screen and (max-width:1024px) {
@@ -86,16 +93,21 @@
         margin: 3rem auto 6rem;
     }
 
-    .about__content{
+    .about__content {
         text-align: center;
     }
-    .about__content a{
-        margin: auto auto;
-    }
+
+    
+
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
-    
+
+    .cta-about {
+        margin: auto;
+        justify-content: center;
+    }
+
 }
 
 /*  ##################  Media Queries (SMALL DEVICES)  ######################   */
@@ -105,14 +117,17 @@
         width: 65%;
         margin: 0 auto 3rem;
     }
-    .about__cards{
+
+    .about__cards {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    .about__content{
+
+    .about__content {
         text-align: center;
     }
-    .about__content p{
+
+    .about__content p {
         margin: 1.5rem 0;
     }
 }

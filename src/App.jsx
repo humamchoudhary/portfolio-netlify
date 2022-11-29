@@ -9,7 +9,8 @@ import PortFolioDetails from './components/PortFolioDetails/PortFolioDetails';
 import Error404 from './components/404/404';
 import ProjectDetails from './components/ProJectDetails/ProjectDetails';
 import { HelmetProvider } from 'react-helmet-async'
-
+import Aboutdetails from './components/More About/Aboutdetails';
+// import { Aboutdetails } from './components/More About/Aboutdetails'
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path="/Portfolio" element={<PortFolioDetails />} />
+            <Route path="/About-me" element={<Aboutdetails />} />
             <Route path='/Projects/:id' element={<ProjectDetails />} />
             <Route path='/*' element={<Error404 />} />
           </Routes>

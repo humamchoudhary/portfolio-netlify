@@ -1,7 +1,7 @@
 import React from 'react'
 import "./About.css"
 import ME from "../../assets/me2.jpeg"
-import { FiAward} from "react-icons/fi"
+import { FiAward } from "react-icons/fi"
 import { FiUsers } from "react-icons/fi"
 import { VscFolderLibrary } from "react-icons/vsc"
 import { HashLink } from 'react-router-hash-link'
@@ -39,19 +39,18 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Ab quae esse quibusdam
-            ratione maiores quisquam, molestias nobis
-            iusto accusamus a, sapiente, reprehenderit
-            asperiores voluptatibus maxime voluptatum
-            explicabo neque? Laudantium optio labore,
-            delectus laborum commodi facilis enim nulla
-            in corporis? Impedit soluta quaerat odit
-            vero deleniti mollitia vitae praesentium
-            ducimus sequi!
+            I have always been intrested in science and technology. After 9th grade I got involved into computers and immediately I knew what I was going to take forward, However
+            due to the limited knowledge I had of programming and computers there wasnt much that I could do in that time. My real programming journey began in
+            the covid due to the free time I had to learn programming myself. Computers in general provides me a gateway to unlimited possibilities and a way to
+            express myself however I want to. Spending hours on it and not even getting tired despite how hard the task is. After a while I discovered game development, Web development
+            and AI but didnt divided into it as i thought at the time that I donot have much knowledge to work with them but as time passed on I started to realized how
+            easy and small they were.
           </p>
+          <div className="cta-about">
 
-        <HashLink to="#contact" className='btn btn-primary'>Let's Talk</HashLink>
+            <HashLink to="#contact" className='btn btn-primary'>Let's Talk</HashLink>
+            <HashLink to="/About-me" className='btn'>More about me</HashLink>
+          </div>
 
         </div>
       </div>

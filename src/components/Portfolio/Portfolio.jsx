@@ -1,7 +1,7 @@
 import "./portfolio.css"
 import { Projects } from "../../projects.js"
 import { HashLink } from 'react-router-hash-link'
-import { Link } from 'react-router-dom'
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -14,7 +14,7 @@ const Portfolio = () => {
           return (
 
             <article className='portfolio__item'>
-              <Link to={`/Projects/${project.id}/#`}>
+              <HashLink to={`/Projects/${project.id}/#/`}>
 
                 <div className="portfolio__item__img">
                   <img src={project.img} alt="Al Kitab" />
@@ -23,9 +23,9 @@ const Portfolio = () => {
                 <h5 className="text-light">{project.type}  |  {project.lang}</h5>
                 <div className="portfolio__item__cta">
                   <a href={project.gitlink} className="btn">GitHub</a>
-                  <a href={project.demolink} className="btn btn-primary" target="_blank">Live Demo</a>
+                  <a href={project.demolink} className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
                 </div>
-              </Link>
+              </HashLink>
             </article>
           )
         })}
