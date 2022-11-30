@@ -38,6 +38,7 @@ nav a.active {
 
 @media screen and (max-width:1024px) {
     nav {
+        margin-bottom: 5rem;
         top: 95vh;
         left: 50%;
         height: max-content;

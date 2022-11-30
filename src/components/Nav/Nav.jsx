@@ -11,6 +11,8 @@ import { useState } from 'react'
 
 const Nav = () => {
   const [activeNav,setActivenav] = useState("/#");
+  var r = document.querySelector(':root');
+  r.style.setProperty('--blue', window.innerHeight);
   return (
     <nav>
       <HashLink to="#" onClick={()=>setActivenav("/#")}  className={activeNav ==="/#"?'active':''} smooth><FiHome/></HashLink>

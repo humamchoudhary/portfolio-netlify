@@ -3,10 +3,12 @@
     height: 100vh;
     margin-top: 0
 }
-.project__item{
+
+.project__item {
     background: var(--color-text);
 
 }
+
 .project__header {
     display: flex;
 }
@@ -22,9 +24,11 @@
     filter: brightness(0.50);
     object-fit: fill;
 }
-.back{
+
+.back {
     z-index: 2;
 }
+
 .project__header__text {
     position: absolute;
     transition: var(--transition);
@@ -99,10 +103,12 @@
     .project__item__img img {
         object-fit: cover;
     }
+
     .details__body .details {
         flex-direction: column;
         gap: 2rem;
     }
+
     .details__body .details .line {
         width: 50vw;
         height: 3px;
@@ -116,5 +122,18 @@
     .project__details__header {
         display: flex;
         flex-direction: column;
+    }
+
+    .project__header__text h5 {
+        font-size: 1.5rem;
+    }
+
+    .project__header__text h3 {
+        font-size: 3rem;
+    }
+
+    .details__body .details p {
+        text-align: justify;
+        font-size: 0.9rem;
     }
 }

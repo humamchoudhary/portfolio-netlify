@@ -18,7 +18,6 @@ const App = () => {
   return (
     <>
       <HelmetProvider>
-
         <HashRouter>
           <Routes>
             <Route path='/' element={<Home />} />
@@ -27,7 +26,6 @@ const App = () => {
             <Route path='/Projects/:id' element={<ProjectDetails />} />
             <Route path='/*' element={<Error404 />} />
           </Routes>
-
         </HashRouter>
       </HelmetProvider>
 

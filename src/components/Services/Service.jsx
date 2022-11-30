@@ -1,6 +1,9 @@
 import React from 'react'
 import "./service.css"
 import { AiOutlineCheck } from "react-icons/ai"
+import { Graphicsservices } from "../../services.js"
+import { Backendservices } from "../../services.js"
+import { Appservices } from "../../services.js"
 
 const Services = () => {
     return (
@@ -11,25 +14,19 @@ const Services = () => {
                 {/* ======================= UI/Ux ==================== */}
                 <article className="service">
                     <div className="service__head">
-                        <h3>UI/UX Design</h3>
+                        <h3>Design</h3>
                     </div>
                     <ul className="service__list">
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
+                        {Graphicsservices.map((service,key) => {
+                            return (
+                                <article key={key}>
+                                    <li key={key}>
+                                        <AiOutlineCheck className='service__list__icon' />
+                                        <p>{service.service}</p>
+                                    </li>
+                                </article>
+                            )
+                        })}
                     </ul>
                 </article>
 
@@ -37,25 +34,19 @@ const Services = () => {
                 {/* ======================= Web Dev ==================== */}
                 <article className="service">
                     <div className="service__head">
-                        <h3>Web/App Development</h3>
+                        <h3>Web Development</h3>
                     </div>
                     <ul className="service__list">
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
+                        {Backendservices.map((service) => {
+                            return (
+                                <article>
+                                    <li>
+                                        <AiOutlineCheck className='service__list__icon' />
+
+                                        <p>{service.service}</p>
+                                    </li></article>
+                            )
+                        })}
                     </ul>
                 </article>
 
@@ -66,22 +57,16 @@ const Services = () => {
                         <h3>Graphic Design</h3>
                     </div>
                     <ul className="service__list">
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
-                        <li>
-                            <AiOutlineCheck className='service__list__icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
-                        </li>
+                        {Appservices.map((service) => {
+                            return (
+                                <article>
+                                    <li>
+                                        <AiOutlineCheck className='service__list__icon' />
+
+                                        <p>{service.service}</p>
+                                    </li></article>
+                            )
+                        })}
                     </ul>
                 </article>
 

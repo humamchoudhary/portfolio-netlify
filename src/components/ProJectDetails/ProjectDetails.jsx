@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet-async'
 const ProjectDetails = () => {
     const navigate = useNavigate();
     const { id } = useParams();
-
+    window.scrollTo(0,0);
     return (
         <>
             <section id="#" className='container__project__items'>
@@ -20,7 +20,7 @@ const ProjectDetails = () => {
 
                 {AllProjects.map((project) => {
                     return (
-                        project.id === id ?
+                        project.id == id ?
                             <article className='project__item'>
 
                                 <BiArrowBack className='back' onClick={() => navigate(-1)} />
