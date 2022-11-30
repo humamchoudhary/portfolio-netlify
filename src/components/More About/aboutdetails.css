@@ -1,0 +1,26 @@
+.about__me__header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+
+
+.about__me__header h1 {
+    color: var(--color-cta);
+    font-size: 5rem;
+}
+
+.about__me__header__img {
+    overflow: hidden;
+    width: 40rem;
+    margin-right: 8rem;
+    border-radius: 1rem;
+    /* border: 3px solid var(--color-cta); */
+}
+
+.about__me__header__img img {
+    object-fit: fill;
+}
