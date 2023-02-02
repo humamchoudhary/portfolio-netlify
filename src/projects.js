@@ -1,5 +1,6 @@
 import AlKitab from "./assets/Al Kitab.png"
 import Swizzle from "./assets/swizzle_proj.png"
+import Vwatch from "./assets/vwatch.png"
 export const AllProjects = [
     {
         id: 1,
@@ -23,6 +24,17 @@ export const AllProjects = [
         gitlink: "https://github.com/humamchoudhary/humamchoudhary.github.io/tree/main/swizzl",
         demolink: "https://humamchoudhary.github.io/swizzl/",
         details: "Swizzl is a restaurant web app that offers an easy and convenient way to order food online. The app is built using HTML, JavaScript and CSS, making it user-friendly and easy to navigate. The main feature of the app is its menu, which is divided into different sections like Appetizers, Entrees, Desserts and Drinks. Users can browse through the menu, view pictures of the dishes and read detailed descriptions of each product. The app also includes a 'Trending Now' section, where users can see the most popular dishes and products that are currently being ordered. Additionally, the app contains details about the different products including ingredients, nutritional information and pricing. Swizzl allows customers to order online and also includes a section for special requests and comments. Overall, the app makes ordering food an enjoyable and hassle-free experience."
+    },
+    {
+        id: 3,
+        name: "Vwatch",
+        type: "Video On Demand Mobile App",
+        lang: "Python, Flutter",
+        img: Vwatch,
+        img2: Vwatch,
+        gitlink: "https://github.com/humamchoudhary/Vwatch",
+        demolink: "https://github.com/humamchoudhary/Vwatch",
+        details: "V-watch is a Video on demand app, it is created using Flutter, Python (Flask), and JSON database. The aim is to create a beautiful looking mobile app on which the user can have break free experience while watching their favorite movie or TV show. V-Watch is a video on demand (VOD) streaming app that allows users to access a wide variety of movies, television shows, and other video content on their devices. With V-Watch, users can browse and search for content, create and save playlists, and stream videos in high definition."
     },
 
 ]
@@ -48,6 +60,17 @@ export const Projects = [
         gitlink: "https://github.com/humamchoudhary/humamchoudhary.github.io/tree/main/swizzl",
         demolink: "https://humamchoudhary.github.io/swizzl/",
         details: "Swizzl is a restaurant web app that offers an easy and convenient way to order food online. The app is built using HTML, JavaScript and CSS, making it user-friendly and easy to navigate. The main feature of the app is its menu, which is divided into different sections like Appetizers, Entrees, Desserts and Drinks. Users can browse through the menu, view pictures of the dishes and read detailed descriptions of each product. The app also includes a 'Trending Now' section, where users can see the most popular dishes and products that are currently being ordered. Additionally, the app contains details about the different products including ingredients, nutritional information and pricing. Swizzl allows customers to order online and also includes a section for special requests and comments. Overall, the app makes ordering food an enjoyable and hassle-free experience."
+    },
+    {
+        id: 3,
+        name: "Vwatch",
+        type: "Video On Demand Mobile App",
+        lang: "Python, Flutter",
+        img: Vwatch,
+        img2: Vwatch,
+        gitlink: "https://github.com/humamchoudhary/Vwatch",
+        demolink: "https://github.com/humamchoudhary/Vwatch",
+        details: "V-watch is a Video on demand app, it is created using Flutter, Python (Flask), and JSON database. The aim is to create a beautiful looking mobile app on which the user can have break free experience while watching their favorite movie or TV show. V-Watch is a video on demand (VOD) streaming app that allows users to access a wide variety of movies, television shows, and other video content on their devices. With V-Watch, users can browse and search for content, create and save playlists, and stream videos in high definition."
     },
 
 
