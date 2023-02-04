@@ -1,6 +1,8 @@
 import AlKitab from "./assets/Al Kitab.png";
 import Swizzle from "./assets/swizzle_proj.png";
 import Vwatch from "./assets/vwatch.png";
+import Wesley from "./assets/wesley.png";
+import Wesley2 from "./assets/wesley2.png";
 export const AllProjects = [
   {
     id: 1,
@@ -46,6 +48,20 @@ export const AllProjects = [
     details:
       "V-watch is a Video on demand app, it is created using Flutter, Python (Flask), and JSON database. The aim is to create a beautiful looking mobile app on which the user can have break free experience while watching their favorite movie or TV show. V-Watch is a video on demand (VOD) streaming app that allows users to access a wide variety of movies, television shows, and other video content on their devices. With V-Watch, users can browse and search for content, create and save playlists, and stream videos in high definition.",
   },
+  {
+    id: 4,
+    name: "Wesley Curry's Portfolio",
+    type: "React Website",
+    lang: "Reactjs",
+    subline: "Photographer's portfolio",
+    role: "Desginer & ReactJs Developer",
+    img: Wesley,
+    img2: Wesley2,
+    gitlink: "https://github.com/humamchoudhary/wesley-curry-portfolio",
+    demolink: "https://gleeful-tulumba-7b18d6.netlify.app/",
+    details:
+      "Wesley Curry is a talented and imaginative photographer, and his website showcases his creativity and eye for detail. Built with ReactJS and Tailwind CSS, the website offers an elegant and easy-to-navigate platform for showcasing his work. The intro page provides a brief overview of Wesley and his passion for photography, while the gallery page showcases his portfolio of stunning images. The contact page allows visitors to get in touch with Wesley directly, offering a convenient way for clients and admirers alike to connect with the photographer. Whether you're looking to book a photoshoot or simply admire his work, Wesley's website is the perfect destination.",
+  },
 ];
 export const Projects = [
   {
@@ -84,5 +100,19 @@ export const Projects = [
     demolink: "https://github.com/humamchoudhary/Vwatch",
     details:
       "V-watch is a Video on demand app, it is created using Flutter, Python (Flask), and JSON database. The aim is to create a beautiful looking mobile app on which the user can have break free experience while watching their favorite movie or TV show. V-Watch is a video on demand (VOD) streaming app that allows users to access a wide variety of movies, television shows, and other video content on their devices. With V-Watch, users can browse and search for content, create and save playlists, and stream videos in high definition.",
+  },
+  {
+    id: 4,
+    name: "Wesley Curry's Portfolio",
+    type: "React Website",
+    lang: "Reactjs",
+    subline: "Photographer's portfolio",
+    role: "Desginer & ReactJs Developer",
+    img: Wesley,
+    img2: Wesley2,
+    gitlink: "https://github.com/humamchoudhary/wesley-curry-portfolio",
+    demolink: "https://gleeful-tulumba-7b18d6.netlify.app/",
+    details:
+      "Wesley Curry is a talented and imaginative photographer, and his website showcases his creativity and eye for detail. Built with ReactJS and Tailwind CSS, the website offers an elegant and easy-to-navigate platform for showcasing his work. The intro page provides a brief overview of Wesley and his passion for photography, while the gallery page showcases his portfolio of stunning images. The contact page allows visitors to get in touch with Wesley directly, offering a convenient way for clients and admirers alike to connect with the photographer. Whether you're looking to book a photoshoot or simply admire his work, Wesley's website is the perfect destination.",
   },
 ];
