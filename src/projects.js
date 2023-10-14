@@ -63,7 +63,20 @@ export const AllProjects = [
     demolink: "https://gleeful-tulumba-7b18d6.netlify.app/",
     details:
       "Wesley Curry is a talented and imaginative photographer, and his website showcases his creativity and eye for detail. Built with ReactJS and Tailwind CSS, the website offers an elegant and easy-to-navigate platform for showcasing his work. The intro page provides a brief overview of Wesley and his passion for photography, while the gallery page showcases his portfolio of stunning images. The contact page allows visitors to get in touch with Wesley directly, offering a convenient way for clients and admirers alike to connect with the photographer. Whether you're looking to book a photoshoot or simply admire his work, Wesley's website is the perfect destination.",
-  },
+  },{
+    id: 5,
+    name: "Friscon App",
+    type: "Mobile App",
+    lang: "React Native - Firebase",
+    subline: "Right place to shop anything anytime",
+    role: "Mobile App Developer",
+    img: Friscon,
+    img2: Friscon,
+    gitlink: "https://github.com/humamchoudhary",
+    demolink: "https://github.com/humamchoudhary",
+    details:
+      "Friscon is on a mission to revolutionize the online shopping experience, and the development of our mobile app is a major step towards achieving this goal. Our focus is to create an intuitive, user-friendly, and feature-rich e-commerce platform that offers a wide range of products and services to customers. The primary objective of our mobile app is to provide a seamless shopping experience, from effortless product browsing to secure and convenient payments. To accomplish this, we will incorporate innovative features that enhance user engagement and satisfaction. Our mobile app will prioritize intuitive design and ease of use, ensuring that customers can effortlessly navigate through our extensive product catalog. We understand the importance of efficient search and filtering functionalities, enabling users to find their desired products quickly and accurately. Moreover, to enhance user engagement, our app will feature a personalized recommendation engine that leverages advanced algorithms and machine learning techniques. By tailoring product suggestions to individual preferences and browsing history, we aim to help customers discover new items aligned with their tastes. In addition, we recognize the significance of social connectivity in modern e￾commerce. Our app will seamlessly integrate with popular social media platforms, allowing users to share their favorite products, create wishlists, and engage with our online community. By fostering a sense of connection and facilitating peer recommendations, we strive to create a vibrant and interactive shopping ecosystem. Overall, the Friscon mobile app will redefine the online shopping landscape by providing a seamless and enjoyable experience for our customers, driven by innovative features and a customer-centri approach.",
+    },
 ];
 export const Projects = [
   {
